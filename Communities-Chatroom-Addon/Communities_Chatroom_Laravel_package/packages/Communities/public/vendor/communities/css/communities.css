@@ -1,0 +1,21 @@
+.communities-wrapper { padding: 20px 0; }
+.community-card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; background: #fff; }
+.community-card__header { display:flex; justify-content:space-between; align-items:flex-start; }
+.community-card__meta { display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; }
+.channel-layout { display:flex; border:1px solid #e5e7eb; border-radius:8px; overflow:hidden; min-height:60vh; background:#fff; }
+.channel-sidebar { width:260px; border-right:1px solid #e5e7eb; background:#f8fafc; }
+.channel-sidebar__item { display:block; padding:8px 12px; color:#111827; text-decoration:none; }
+.channel-sidebar__item.active { background:#e0f2fe; font-weight:600; }
+.channel-main { flex:1; display:flex; flex-direction:column; }
+.channel-main__header { padding:12px 16px; border-bottom:1px solid #e5e7eb; }
+.channel-messages { padding:12px 16px; flex:1; overflow-y:auto; }
+.channel-message { display:flex; gap:10px; margin-bottom:10px; }
+.channel-message__content { white-space:pre-line; }
+.channel-composer { border-top:1px solid #e5e7eb; padding:12px 16px; background:#f8fafc; }
+.feed-item { border-bottom:1px solid #e5e7eb; padding:12px 0; }
+.feed-item__content { white-space:pre-line; }
+.feed-comment { background:#f8fafc; padding:8px; border-radius:6px; margin-bottom:8px; }
+.heatmap-grid { display:grid; grid-template-columns:repeat(14, minmax(10px,1fr)); gap:4px; }
+.heatmap-grid .cell { width:100%; padding-top:100%; position:relative; border-radius:4px; }
+.heatmap-grid .cell span { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:10px; }
+.leaderboard-table img { object-fit:cover; }
