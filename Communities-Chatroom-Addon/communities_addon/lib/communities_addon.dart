@@ -1,0 +1,19 @@
+library communities_addon;
+
+export 'src/config/communities_config.dart';
+export 'src/api/communities_api_client.dart';
+export 'src/api/api_exceptions.dart';
+export 'src/api/real_time_client.dart';
+export 'src/models/models.dart';
+export 'src/repositories/repositories.dart';
+export 'src/state/state.dart';
+export 'src/navigation/communities_routes.dart';
+export 'src/menu/menu_items.dart';
+export 'src/ui/screens/community_list_screen.dart';
+export 'src/ui/screens/community_detail_screen.dart';
+export 'src/ui/screens/channel_screen.dart';
+export 'src/ui/screens/dm_inbox_screen.dart';
+export 'src/ui/screens/dm_thread_screen.dart';
+export 'src/ui/screens/leaderboard_screen.dart';
+export 'src/ui/widgets/heatmap_view.dart';
+export 'src/ui/screens/community_settings_screen.dart';
